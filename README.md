@@ -26,24 +26,26 @@ It scrapes product data from [BooksToScrape.com](http://books.toscrape.com) and 
 - `matplotlib` for plotting
 - `streamlit` for the dashboard
 
-  ## 📸 Dashboard Preview
-  dashboard.png
+## 📸 Dashboard Preview
+
+![Dashboard Screenshot](dashboard.png)
+
 
   ```bash
 git clone https://github.com/Annei92/ecommerce-price-tracker.git
 cd ecommerce-price-tracker
 
-1) Install dependencies
+# Install dependencies
     bash
     pip install -r requirements.txt
-2) Run the scraper
+# Run the scraper
     bash
     python main.py
-3). Run the dashboard
+# Run the dashboard
    bash
    streamlit run dashboard/app.py
 
------Sample Product-----
+# Sample Product
 We’re scraping this book:
 📘 A Light in the Attic
 http://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
